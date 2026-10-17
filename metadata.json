@@ -1,0 +1,8 @@
+{
+  "name": "Simulasi Soal Katolik - CBT & Latihan (80 Soal)",
+  "description": "Dashboard simulasi ujian CBT dan latihan soal lengkap 80 butir dari dokumen Quizizz Katekumen Des 2021 dengan pengaturan jumlah soal dan antarmuka responsif mobile-friendly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

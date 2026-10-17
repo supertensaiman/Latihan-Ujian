@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html.dark,
+body.dark,
+.dark {
+  color-scheme: dark;
+  background-color: #090d16 !important;
+  color: #ffffff !important;
+}
+
+/* Force all text content in dark mode to be bright white or high-contrast silver */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #ffffff !important;
+}
+
+.dark p,
+.dark span,
+.dark label,
+.dark button,
+.dark strong,
+.dark div {
+  color-scheme: dark;
+}
+
+/* Guarantee dark mode contrast for standard text utility classes */
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700,
+.dark .text-slate-600 {
+  color: #ffffff !important;
+}
+
+.dark .text-slate-500 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-slate-300 {
+  color: #f1f5f9 !important;
+}
+
+/* Ensure form controls in dark mode have bright white text and dark background */
+.dark select,
+.dark input[type="text"],
+.dark input[type="number"],
+.dark textarea {
+  color: #ffffff !important;
+  background-color: #1e293b !important;
+  border-color: #475569 !important;
+}
+
+.dark select option {
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+}
